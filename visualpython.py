@@ -149,7 +149,7 @@ def main():
     controller.add_listener(listener)
     frame = listener.on_frame(controller)
     for gesture in frame.gestures():
-        if gesture == Leap.Gesture.TYPE_KEY_TAP:
+        if gesture.type == Leap.Gesture.TYPE_SCREEN_TAP:
             redbox.rotate(angle=pi/4, axis=redbox.axis, pos=redbox.pos)
     # Keep process running until Enter is pressed
     print "Press Enter to quit..."
