@@ -1,0 +1,7 @@
+from visual import *
+g = []
+for i in xrange(3):
+  g.append(display(x = 0+i*520, y = 0, width=520, height=1080))
+for i in xrange(3):
+  redbox=box(pos=vector(0,0,0),
+           size=(8,4,6),display = g[i], color=color.red)
