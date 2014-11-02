@@ -1,3 +1,5 @@
+
+
 import os, sys, inspect, thread, time
 src_dir = os.path.dirname(inspect.getfile(inspect.currentframe()))
 arch_dir = '../lib/x64' if sys.maxsize > 2**32 else '../lib/x86'
@@ -6,7 +8,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(src_dir, arch_dir)))
 import Leap
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
 
-from visual import *
+#from visual import *
 
 class SampleListener(Leap.Listener):
     def on_init(self, controller):
@@ -65,7 +67,7 @@ class SampleListener(Leap.Listener):
                 direction.yaw * Leap.RAD_TO_DEG)
 
             # Gestures
-            for gesture in frame.gestures():
+            for gesture in frame.gestures:
                 if gesture.type == Leap.Gesture.TYPE_CIRCLE:
                     circle = CircleGesture(gesture)
 
@@ -138,11 +140,11 @@ def main():
 
 def main():
     g = []
-    for i in xrange(3):
-        g.append(display(x = 0+i*520, y = 0, width=520, height=1080))
-    for i in xrange(3):
-        redbox=box(pos=vector(0,0,0),
-                   size=(8,4,6),display = g[i], color=color.red)
+    #for i in xrange(3):
+    #    g.append(display(x = 0+i*520, y = 0, width=520, height=1080))
+    #for i in xrange(3):
+    #    redbox=box(pos=vector(0,0,0),
+    #               size=(8,4,6),display = g[i], color=color.red)
     listener = SampleListener()
     controller = Leap.Controller()
     # Have sample listener receive events from controller
@@ -150,7 +152,8 @@ def main():
     frame = listener.on_frame(controller)
     for gesture in frame.gestures():
         if gesture.type == Leap.Gesture.TYPE_SCREEN_TAP:
-            redbox.rotate(angle=pi/4, axis=redbox.axis, pos=redbox.pos)
+            pass
+           # redbox.rotate(angle=pi/4, axis=redbox.axis, pos=redbox.pos)
     # Keep process running until Enter is pressed
     print "Press Enter to quit..."
     sys.stdin.readline()

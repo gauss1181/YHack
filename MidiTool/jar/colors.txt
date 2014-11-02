@@ -1,0 +1,23 @@
+cornflowerblue
+blueviolet
+forestgreen
+darkcyan
+gold
+chocolate
+lightsteelblue
+darkolivegreen
+lightgreen
+dodgerblue
+brown
+aquamarine
+coral
+burlywood
+limegreen
+cadetblue
+
+# possible:
+#
+# blue:  blueviolet, cornflowerblue, darkcyan, cadetblue, dodgerblue, lightsteelblue, 
+# brown: chocolate, brown, indianred, coral, burlywood, gold
+# green: lightgreen, limegreen, forestgreen, darkolivegreen, aquamarine
+# 
