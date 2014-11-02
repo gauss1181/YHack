@@ -147,8 +147,9 @@ def main():
     controller = Leap.Controller()
     # Have sample listener receive events from controller
     controller.add_listener(listener)
-    frame = listener.on_frame(controller)
-    if len(frame.gestures()) > 0:
+    frame = controller.frame()
+    gestures = frame.gestures()
+    if gestures is not None and len(gestures) > 0:
         for gesture in frame.gestures():
             if gesture.type == Leap.Gesture.TYPE_SCREEN_TAP:
                 redbox.rotate(angle=pi/4, axis=redbox.axis, pos=redbox.pos)
@@ -160,3 +161,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+                                
