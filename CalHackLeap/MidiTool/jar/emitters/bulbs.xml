@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<system additive="false" points="true">
+
+
+
+<emitter imageName="" name="DotsAndSmallBulbs" renderType="inherit" useAdditive="false" useOriented="false">
+<spawnInterval enabled="true" max="16000.0" min="10000.0"/>
+<spawnCount enabled="true" max="1.0" min="1.0"/>
+<initialLife enabled="true" max="25000.0" min="20000.0"/>
+<initialSize enabled="true" max="50.0" min="50.0"/>
+<xOffset enabled="true" max="0.0" min="0.0"/>
+<yOffset enabled="true" max="0.0" min="0.0"/>
+<initialDistance enabled="false" max="0.0" min="0.0"/>
+<speed enabled="true" max="0.0" min="0.0"/>
+<length enabled="false" max="1000.0" min="1000.0"/>
+<emitCount enabled="false" max="1000.0" min="1000.0"/>
+<spread type="random" value="0.0"/>
+<angularOffset type="simple" value="0.0"/>
+<growthFactor type="simple" value="0.0"/>
+<gravityFactor type="simple" value="0.0"/>
+<windFactor type="simple" value="0.0"/>
+<alpha active="true" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.05" y="240.0"/>
+<point x="0.35" y="255.0"/>
+<point x="0.66" y="255.0"/>
+<point x="0.95" y="240.0"/>
+<point x="1.0" y="0.0"/>
+</alpha>
+<size active="false" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="255.0"/>
+</size>
+<velocity active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</velocity>
+<scaleY active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</scaleY>
+<color>
+<step b="0.0" g="1.0" offset="0.0" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.05" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.12" r="0.0"/>
+<step b="0.0" g="1.0" offset="0.16" r="0.0"/>
+<step b="1.0" g="1.0" offset="0.30" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.392" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.42" r="1.0"/>
+<step b="1.0" g="0.0" offset="0.512" r="1.0"/>
+<step b="0.8" g="0.0" offset="0.62" r="1.0"/>
+<step b="0.2" g="0.0" offset="0.704" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.792" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="1.0" offset="1.0" r="1.0"/>
+</color>
+</emitter>
+
+<emitter imageName="" name="MediumBulbs" renderType="inherit" useAdditive="false" useOriented="false">
+<spawnInterval enabled="true" max="16000.0" min="10000.0"/>
+<spawnCount enabled="true" max="1.0" min="1.0"/>
+<initialLife enabled="true" max="25000.0" min="20000.0"/>
+<initialSize enabled="true" max="65.0" min="65.0"/>
+<xOffset enabled="true" max="0.0" min="0.0"/>
+<yOffset enabled="true" max="0.0" min="0.0"/>
+<initialDistance enabled="false" max="0.0" min="0.0"/>
+<speed enabled="true" max="0.0" min="0.0"/>
+<length enabled="false" max="1000.0" min="1000.0"/>
+<emitCount enabled="false" max="1000.0" min="1000.0"/>
+<spread type="random" value="0.0"/>
+<angularOffset type="simple" value="0.0"/>
+<growthFactor type="simple" value="0.0"/>
+<gravityFactor type="simple" value="0.0"/>
+<windFactor type="simple" value="0.0"/>
+<alpha active="true" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.05" y="240.0"/>
+<point x="0.35" y="255.0"/>
+<point x="0.66" y="255.0"/>
+<point x="0.95" y="240.0"/>
+<point x="1.0" y="0.0"/>
+</alpha>
+<size active="false" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="255.0"/>
+</size>
+<velocity active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</velocity>
+<scaleY active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</scaleY>
+<color>
+<step b="0.0" g="1.0" offset="0.0" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.05" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.12" r="0.0"/>
+<step b="0.0" g="1.0" offset="0.16" r="0.0"/>
+<step b="1.0" g="1.0" offset="0.30" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.392" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.42" r="1.0"/>
+<step b="1.0" g="0.0" offset="0.512" r="1.0"/>
+<step b="0.8" g="0.0" offset="0.62" r="1.0"/>
+<step b="0.2" g="0.0" offset="0.704" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.792" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="1.0" offset="1.0" r="1.0"/>
+</color>
+</emitter>
+
+<emitter imageName="" name="BigBulbs" renderType="inherit" useAdditive="false" useOriented="false">
+<spawnInterval enabled="true" max="16000.0" min="10000.0"/>
+<spawnCount enabled="true" max="1.0" min="1.0"/>
+<initialLife enabled="true" max="25000.0" min="20000.0"/>
+<initialSize enabled="true" max="85.0" min="85.0"/>
+<xOffset enabled="true" max="0.0" min="0.0"/>
+<yOffset enabled="true" max="0.0" min="0.0"/>
+<initialDistance enabled="false" max="0.0" min="0.0"/>
+<speed enabled="true" max="0.0" min="0.0"/>
+<length enabled="false" max="1000.0" min="1000.0"/>
+<emitCount enabled="false" max="1000.0" min="1000.0"/>
+<spread type="random" value="0.0"/>
+<angularOffset type="simple" value="0.0"/>
+<growthFactor type="simple" value="0.0"/>
+<gravityFactor type="simple" value="0.0"/>
+<windFactor type="simple" value="0.0"/>
+<alpha active="true" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.05" y="240.0"/>
+<point x="0.35" y="255.0"/>
+<point x="0.66" y="255.0"/>
+<point x="0.95" y="240.0"/>
+<point x="1.0" y="0.0"/>
+</alpha>
+<size active="false" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="255.0"/>
+</size>
+<velocity active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</velocity>
+<scaleY active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</scaleY>
+<color>
+<step b="0.0" g="1.0" offset="0.0" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.05" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.12" r="0.0"/>
+<step b="0.0" g="1.0" offset="0.16" r="0.0"/>
+<step b="1.0" g="1.0" offset="0.30" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.392" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.42" r="1.0"/>
+<step b="1.0" g="0.0" offset="0.512" r="1.0"/>
+<step b="0.8" g="0.0" offset="0.62" r="1.0"/>
+<step b="0.2" g="0.0" offset="0.704" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.792" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="1.0" offset="1.0" r="1.0"/>
+</color>
+</emitter>
+
+
+<emitter imageName="" name="BigBulbsAllKeepSameColor" renderType="inherit" useAdditive="false" useOriented="false">
+<spawnInterval enabled="true" max="40000.0" min="40000.0"/>
+<spawnCount enabled="true" max="1.0" min="1.0"/>
+<initialLife enabled="true" max="45000.0" min="44000.0"/>
+<initialSize enabled="true" max="85.0" min="85.0"/>
+<xOffset enabled="true" max="0.0" min="0.0"/>
+<yOffset enabled="true" max="0.0" min="0.0"/>
+<initialDistance enabled="false" max="0.0" min="0.0"/>
+<speed enabled="true" max="0.0" min="0.0"/>
+<length enabled="false" max="1000.0" min="1000.0"/>
+<emitCount enabled="false" max="1000.0" min="1000.0"/>
+<spread type="random" value="0.0"/>
+<angularOffset type="simple" value="0.0"/>
+<growthFactor type="simple" value="0.0"/>
+<gravityFactor type="simple" value="0.0"/>
+<windFactor type="simple" value="0.0"/>
+<alpha active="true" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="0.05" y="240.0"/>
+<point x="0.35" y="255.0"/>
+<point x="0.66" y="255.0"/>
+<point x="0.95" y="240.0"/>
+<point x="1.0" y="0.0"/>
+</alpha>
+<size active="false" max="255" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="255.0"/>
+</size>
+<velocity active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</velocity>
+<scaleY active="false" max="1" min="0" type="linear">
+<point x="0.0" y="0.0"/>
+<point x="1.0" y="1.0"/>
+</scaleY>
+<color>
+<step b="0.0" g="1.0" offset="0.0" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.05" r="1.0"/>
+<step b="0.0" g="1.0" offset="0.12" r="0.0"/>
+<step b="0.0" g="1.0" offset="0.16" r="0.0"/>
+<step b="1.0" g="1.0" offset="0.30" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.392" r="0.0"/>
+<step b="1.0" g="0.0" offset="0.42" r="1.0"/>
+<step b="1.0" g="0.0" offset="0.512" r="1.0"/>
+<step b="0.8" g="0.0" offset="0.62" r="1.0"/>
+<step b="0.2" g="0.0" offset="0.704" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.792" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="0.8" offset="0.872" r="1.0"/>
+<step b="0.0" g="1.0" offset="1.0" r="1.0"/>
+</color>
+</emitter>
+
+
+
+
+
+</system>

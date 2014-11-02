@@ -6,8 +6,8 @@ for i in xrange(3):
   d = display(x = 0+i*520, y = 0, width=520, height=1080)
   d.forward= (0,0,5)
   g.append(d)
-texdat = materials.loadTGA("testtext")
-tex = materials.texture(data = texdat, mapping = "rectangular", interpolate = False)
+texdat = materials.loadTGA("test")
+tex = materials.texture(data = texdat, mapping = "spherical", interpolate = False)
 for i in xrange(3):
   redbox=box(pos=vector(0,0,0),
            size=(2,2,2),display = g[i], color=color.green, material = tex)

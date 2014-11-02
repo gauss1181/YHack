@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>XML Config for Metronome</comment>
+<entry key="effect6">56</entry>
+<entry key="effect5">55</entry>
+<entry key="effect4">54</entry>
+<entry key="effect3">53</entry>
+<entry key="effect2">52</entry>
+<entry key="tonLautstaerke">80</entry>
+<entry key="effect1">51</entry>
+<entry key="effect0">50</entry>
+<entry key="notenWert">60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60</entry>
+<entry key="effektLautstaerke8">6</entry>
+<entry key="effektLautstaerke7">6</entry>
+<entry key="effektLautstaerke6">6</entry>
+<entry key="effektLautstaerke5">6</entry>
+<entry key="checkboxes">402004004004802004004004802004004004802004004004002004004004002004004004002004004004002004004004002004004004002004004004002004004004002004004004002004004004002004004004002004004004002004004004</entry>
+<entry key="effektLautstaerke4">6</entry>
+<entry key="effektLautstaerke3">6</entry>
+<entry key="effektLautstaerke2">6</entry>
+<entry key="effektLautstaerke1">6</entry>
+<entry key="effektLautstaerke0">6</entry>
+<entry key="bpmNo">13</entry>
+<entry key="order">0123</entry>
+<entry key="effect8">76</entry>
+<entry key="effect7">75</entry>
+</properties>
